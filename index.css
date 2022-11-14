@@ -190,16 +190,25 @@ footer{
     body{
         background-color: rgb(8, 8, 8);
     }
+    .nav1{
+        background-color: rgb(8, 8, 8);
+    }
 }
 /* media query for tablets devices */
 @media(min-width: 768px) and (max-width: 1024px){
     body{
         background-color: rgb(6, 6, 6);
     }
+    .nav1{
+        background-color: rgb(8, 8, 8);
+    }
 }
 /* media query for desktops */
 @media(min-width: 1025px) and (max-width: 1280px){
     body{
         background-color: rgb(5, 5, 5);
+    }
+    .nav1{
+        background-color: rgb(8, 8, 8);
     }
 }
