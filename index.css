@@ -213,6 +213,17 @@ footer{
     }
     .nav1{
         background-color: rgb(8, 8, 8);
+        
+        position: absolute;
+        background: #642d29d0;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+        flex-direction: column;
     }
 }
 /* media query for desktops */
